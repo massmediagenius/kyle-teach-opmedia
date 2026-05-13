@@ -35,9 +35,8 @@ export default function CTA() {
       <div className="mt-32 border-t border-[#1a1a1a] pt-10 pb-8">
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-6 h-6 rounded-full bg-gold flex items-center justify-center">
-              <span className="font-mono text-[9px] font-bold text-black">OP</span>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.png" alt="OPMEDIA" className="w-8 h-8 object-contain" />
             <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-ink/50">
               OPMEDIA × KYLE TEACH
             </span>

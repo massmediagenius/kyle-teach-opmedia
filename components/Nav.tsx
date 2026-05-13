@@ -10,9 +10,8 @@ export default function Nav() {
       className="fixed top-0 left-0 right-0 z-50 px-6 md:px-10 py-5 flex items-center justify-between backdrop-blur-md bg-[#0a0a0a]/60 border-b border-[#1a1a1a]"
     >
       <div className="flex items-center gap-3">
-        <div className="w-7 h-7 rounded-full bg-gold flex items-center justify-center">
-          <span className="font-mono text-[10px] font-bold text-black">OP</span>
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo.png" alt="OPMEDIA" className="w-10 h-10 object-contain" />
         <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-ink/70">
           OPMEDIA
         </span>
