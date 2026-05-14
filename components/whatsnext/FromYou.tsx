@@ -16,7 +16,7 @@ const items = [
       "Photos of you, the team, the Prestige fleet",
       "Old reels, voice memos, anything raw",
     ],
-    cta: "Send via AirDrop or shared Google Drive — link incoming.",
+    cta: "Send via shared album — link incoming.",
   },
   {
     n: "02",
@@ -26,7 +26,6 @@ const items = [
     bullets: [
       "Tell us 1 day/week that works (best: same day every week)",
       "4–6 hour shoot window per session",
-      "We bring lights, audio, gimbal, scripts",
       "Locations rotate: office, truck, jobsite, DMV city, rooftop",
       "Goal: 8–12 reels + carousel content per shoot day",
     ],
