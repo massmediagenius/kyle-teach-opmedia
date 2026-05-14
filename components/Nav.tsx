@@ -17,10 +17,11 @@ export default function Nav() {
         </span>
       </div>
       <div className="hidden md:flex items-center gap-8 font-mono text-[11px] tracking-[0.18em] uppercase text-ink/60">
-        <a href="#diagnosis" className="hover:text-yellow transition-colors">Diagnosis</a>
-        <a href="#vision" className="hover:text-yellow transition-colors">Vision</a>
-        <a href="#preview" className="hover:text-yellow transition-colors">Preview</a>
-        <a href="#funnel" className="hover:text-yellow transition-colors">Funnel</a>
+        <a href="/#diagnosis" className="hover:text-yellow transition-colors">Diagnosis</a>
+        <a href="/#vision" className="hover:text-yellow transition-colors">Vision</a>
+        <a href="/#preview" className="hover:text-yellow transition-colors">Preview</a>
+        <a href="/#funnel" className="hover:text-yellow transition-colors">Funnel</a>
+        <a href="/whats-next" className="text-gold hover:text-yellow transition-colors">What&apos;s Next →</a>
       </div>
       <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-ink/40">
         Brand Strategy · May 2026
